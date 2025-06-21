@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Properties, Luxury Real Estate</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+            margin: 0;
+            background-color: #F8F9FA;
+            color: #2C3E50;
+        }
+        
+        .header-section {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 73, 94, 0.8)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect width="1200" height="600" fill="%234a90e2"/><polygon points="200,400 400,200 600,300 800,150 1000,250 1200,100 1200,600 0,600" fill="%23357abd" opacity="0.7"/></svg>');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .company-name {
+            font-size: 3.5em;
+            font-weight: 300;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .properties-section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #2C3E50;
+        }
+        
+        .property-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .property-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .property-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .property-image {
+            height: 200px;
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4em;
+            color: white;
+        }
+        
+        .property-details {
+            padding: 25px;
+        }
+        
+        .property-price {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #27AE60;
+            margin-bottom: 10px;
+        }
+        
+        .property-features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #ECF0F1;
+        }
+        
+        .feature {
+            text-align: center;
+            color: #34495E;
+        }
+        
+        .feature-number {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .contact-section {
+            background: #34495E;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-section">
+        <h1 class="company-name"> PREMIER PROPERTIES</h1>
+        <p class="tagline">Luxury Homes & Exclusive Locations</p>
+    </header>
+
+    <div class="properties-section">
+        <h2 class="section-title">Featured Properties</h2>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="property-image"></div>
+                <div class="property-details">
+                    <div class="property-price">$2,450,000</div>
+                    <p>Stunning beachfront villa with panoramic ocean views</p>
+                    <div class="property-features">
+                        <div class="feature">
+                            <div class="feature-number">4</div>
+                            <div>Bedrooms</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">3</div>
+                            <div>Bathrooms</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">3,200</div>
+                            <div>Sq Ft</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="property-image" style="background: linear-gradient(45deg, #e74c3c, #c0392b);"></div>
+                <div class="property-details">
+                    <div class="property-price">$1,850,000</div>
+                    <p>Modern penthouse in the heart of the city</p>
+                    <div class="property-features">
+                        <div class="feature">
+                            <div class="feature-number">3</div>
+                            <div>Bedrooms</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">2</div>
+                            <div>Bathrooms</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">2,100</div>
+                            <div>Sq Ft</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img style="margin-left: 300px;" src="https://tse4.mm.bing.net/th/id/OIP.3SrcO1NZkiDvX6eDJNw5uQHaEK?r=0&rs=1&pid=ImgDetMain" alt="">
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h3>Ready to Find Your Dream Home?</h3>
+    </div>
+</body>
+
+</html>
